@@ -1,29 +1,28 @@
 {
-    "name": "symphony-native-window-handle",
-    "version": "1.0.0",
-    "description": "Native window handle of Symphony window",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "postinstall": "npm run build",
-      "build": "run-script-os",
-      "build:win32": "rc.exe /nologo resources.rc & cl SymphonyNativeWindowHandle.c resources.res /O2 /MT /nologo",
-      "build:darwin": ""
-    },
-    "dependencies": {
-      "run-script-os": "1.0.7"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sbenmoussati/SymphonyNativeWindowHandle.git"
-    },
-    "author": "symphony",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/finos/SymphonyNativeWindowHandle/issues"
-    },
-    "homepage": "https://github.com/finos/SymphonyNativeWindowHandle#readme",
-    "os": [
-      "win32"
-    ]
-  }
-  
+  "name": "symphony-native-window-handle",
+  "version": "1.0.0",
+  "description": "Native window handle of Symphony window",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm run build",
+    "build": "run-script-os",
+    "build:win32": "rc.exe /nologo resources.rc & cl SymphonyNativeWindowHandle.c resources.res /O2 /MT /nologo",
+    "build:darwin": ""
+  },
+  "dependencies": {
+    "run-script-os": "^1.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbenmoussati/SymphonyNativeWindowHandle.git"
+  },
+  "author": "symphony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finos/SymphonyNativeWindowHandle/issues"
+  },
+  "homepage": "https://github.com/finos/SymphonyNativeWindowHandle#readme",
+  "os": [
+    "win32"
+  ]
+}
